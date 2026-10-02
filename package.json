@@ -1,0 +1,78 @@
+{
+  "name": "cropsmith",
+  "version": "0.1.0",
+  "description": "Forge perfectly framed images — a React crop/zoom/rotate editor (powered by Cropper.js) paired with a Sharp image pipeline for Node. Drag handles to reframe, original always preserved, optimized WebP out.",
+  "keywords": [
+    "image",
+    "crop",
+    "cropper",
+    "react",
+    "nextjs",
+    "sharp",
+    "webp",
+    "rotate",
+    "zoom",
+    "thumbnail",
+    "editor",
+    "typescript"
+  ],
+  "author": "Eric Ferraz <ericferraz.oficial@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./server": {
+      "types": "./dist/server/index.d.ts",
+      "import": "./dist/server/index.js",
+      "require": "./dist/server/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "cropperjs": "^1.6.2"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "sharp": ">=0.33"
+  },
+  "peerDependenciesMeta": {
+    "sharp": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "sharp": "^0.33.5",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericferraz/cropsmith"
+  }
+}

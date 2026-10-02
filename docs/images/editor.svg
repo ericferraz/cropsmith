@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" font-family="system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="Editor da Cropsmith: imagem com caixa de recorte com alças nos cantos e bordas, área externa escurecida, e barra com proporção, zoom, girar, espelhar e resetar.">
+  <rect width="960" height="600" rx="18" fill="#f3ecdd"/>
+  <text x="40" y="52" font-size="20" font-weight="600" fill="#1a1a1a">Cropsmith · enquadrar foto</text>
+  <text x="920" y="52" text-anchor="end" font-size="15" fill="#1a1a1a" opacity=".55">3 / 6</text>
+
+  <g>
+    <rect x="40" y="78" width="600" height="360" rx="12" fill="#17110e"/>
+    <g opacity=".92" fill="#fff">
+      <rect x="64" y="104" width="150" height="7" rx="3.5" fill="#e5251f"/>
+      <text x="340" y="250" text-anchor="middle" font-size="26" font-weight="600" fill="#ffffff">SÁBADO 24/01</text>
+      <text x="340" y="276" text-anchor="middle" font-size="12" letter-spacing="3" fill="#e5a08f">PROGRAMAÇÃO</text>
+      <text x="616" y="418" text-anchor="end" font-size="12" letter-spacing="3" fill="#e5a08f">EASY RIDER</text>
+    </g>
+
+    <path d="M40 78 H640 V438 H40 Z M150 150 H520 V360 H150 Z" fill="#100b08" fill-rule="evenodd" opacity=".62"/>
+
+    <g stroke="#ffffff" stroke-opacity=".45" stroke-width="1">
+      <line x1="273" y1="150" x2="273" y2="360"/><line x1="396" y1="150" x2="396" y2="360"/>
+      <line x1="150" y1="220" x2="520" y2="220"/><line x1="150" y1="290" x2="520" y2="290"/>
+    </g>
+    <rect x="150" y="150" width="370" height="210" fill="none" stroke="#fff" stroke-width="2"/>
+
+    <g fill="#fff" stroke="#e5251f" stroke-width="1.5">
+      <rect x="144" y="144" width="12" height="12" rx="2"/><rect x="514" y="144" width="12" height="12" rx="2"/>
+      <rect x="144" y="354" width="12" height="12" rx="2"/><rect x="514" y="354" width="12" height="12" rx="2"/>
+      <rect x="329" y="144" width="12" height="12" rx="2"/><rect x="329" y="354" width="12" height="12" rx="2"/>
+      <rect x="144" y="249" width="12" height="12" rx="2"/><rect x="514" y="249" width="12" height="12" rx="2"/>
+    </g>
+    <g stroke="#fff" stroke-width="2" fill="none" opacity=".85">
+      <path d="M322 255 l-10 0 M348 255 l10 0 M335 242 l0 -10 M335 268 l0 10"/>
+    </g>
+
+    <circle cx="40" cy="258" r="21" fill="#e5251f" stroke="#fff" stroke-width="2.5"/>
+    <path d="M45 250 l-8 8 8 8" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="640" cy="258" r="21" fill="#e5251f" stroke="#fff" stroke-width="2.5"/>
+    <path d="M635 250 l8 8 -8 8" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(676,96)" fill="#1a1a1a">
+    <text x="0" y="6" font-size="12" font-weight="600" letter-spacing=".5" opacity=".55">PROPORÇÃO</text>
+    <g transform="translate(0,16)">
+      <rect x="0" y="0" width="54" height="30" rx="8" fill="#e5251f"/><text x="27" y="20" text-anchor="middle" font-size="12" fill="#fff">Livre</text>
+      <rect x="60" y="0" width="54" height="30" rx="8" fill="#fff" stroke="#00000022"/><text x="87" y="20" text-anchor="middle" font-size="12">16:9</text>
+      <rect x="120" y="0" width="48" height="30" rx="8" fill="#fff" stroke="#00000022"/><text x="144" y="20" text-anchor="middle" font-size="12">1:1</text>
+      <rect x="174" y="0" width="54" height="30" rx="8" fill="#fff" stroke="#00000022"/><text x="201" y="20" text-anchor="middle" font-size="12">4:5</text>
+    </g>
+
+    <text x="0" y="86" font-size="12" font-weight="600" letter-spacing=".5" opacity=".55">ZOOM</text>
+    <g transform="translate(0,96)">
+      <rect x="0" y="2" width="228" height="4" rx="2" fill="#00000022"/><rect x="0" y="2" width="96" height="4" rx="2" fill="#e5251f"/><circle cx="96" cy="4" r="8" fill="#e5251f"/>
+    </g>
+
+    <text x="0" y="146" font-size="12" font-weight="600" letter-spacing=".5" opacity=".55">GIRAR · 12°</text>
+    <g transform="translate(0,156)">
+      <rect x="0" y="2" width="228" height="4" rx="2" fill="#00000022"/><rect x="0" y="2" width="132" height="4" rx="2" fill="#e5251f"/><circle cx="132" cy="4" r="8" fill="#e5251f"/>
+    </g>
+
+    <g transform="translate(0,196)">
+      <rect x="0" y="0" width="86" height="32" rx="8" fill="#fff" stroke="#00000022"/><text x="43" y="21" text-anchor="middle" font-size="12">Espelhar</text>
+      <rect x="94" y="0" width="80" height="32" rx="8" fill="#fff" stroke="#00000022"/><text x="134" y="21" text-anchor="middle" font-size="12">Resetar</text>
+    </g>
+
+    <g transform="translate(0,252)">
+      <rect x="0" y="0" width="60" height="40" rx="6" fill="#17110e" stroke="#e5251f"/>
+      <text x="70" y="16" font-size="11" opacity=".6">preview</text>
+      <text x="70" y="32" font-size="11" opacity=".6">ao vivo</text>
+    </g>
+  </g>
+
+  <g transform="translate(40,470)">
+    <rect x="0" y="0" width="210" height="44" rx="10" fill="#e5251f"/><text x="105" y="28" text-anchor="middle" font-size="14" fill="#fff" font-weight="500">✓  Salvar enquadramento</text>
+    <rect x="222" y="0" width="100" height="44" rx="10" fill="none" stroke="#b0151055"/><text x="272" y="28" text-anchor="middle" font-size="14" fill="#b01510">Excluir</text>
+    <text x="920" y="28" text-anchor="end" font-size="12" fill="#1a1a1a" opacity=".55">Original preservado · WebP otimizado</text>
+  </g>
+
+  <text x="40" y="556" font-size="13" fill="#1a1a1a" opacity=".6">Arraste os cantos pra reenquadrar · o centro pra mover · scroll pra dar zoom</text>
+  <text x="920" y="586" text-anchor="end" font-size="12" fill="#1a1a1a" opacity=".4">Cropsmith © Eric Ferraz</text>
+</svg>
