@@ -22,13 +22,17 @@ const S = {
   group: { display: "flex", alignItems: "center", gap: 6 } as const,
   label: { fontSize: 11, fontWeight: 600, textTransform: "uppercase", letterSpacing: ".04em", opacity: 0.6 } as const,
   chip: {
-    border: "1px solid rgba(127,127,127,.35)", background: "transparent", color: "inherit",
+    // Borda em longhand (não `border` shorthand) para poder alternar só o borderColor
+    // em `chipOn` sem o React avisar sobre mistura shorthand/longhand no rerender.
+    borderWidth: 1, borderStyle: "solid", borderColor: "rgba(127,127,127,.35)",
+    background: "transparent", color: "inherit",
     borderRadius: 8, padding: "6px 10px", fontSize: 12, fontWeight: 500, cursor: "pointer", lineHeight: 1,
   } as const,
   chipOn: { background: RED, color: "#fff", borderColor: RED } as const,
   icon: {
     display: "inline-grid", placeItems: "center", width: 32, height: 32, borderRadius: 8,
-    border: "1px solid rgba(127,127,127,.35)", background: "transparent", color: "inherit", cursor: "pointer",
+    borderWidth: 1, borderStyle: "solid", borderColor: "rgba(127,127,127,.35)",
+    background: "transparent", color: "inherit", cursor: "pointer",
   } as const,
   range: { flex: 1, minWidth: 90 } as const,
   val: { fontSize: 11, fontVariantNumeric: "tabular-nums", minWidth: 34, textAlign: "right", opacity: 0.75 } as const,
